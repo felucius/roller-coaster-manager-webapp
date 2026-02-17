@@ -1,8 +1,9 @@
 "use client";
+import Link from "next/link";
 
 export default function MainScreen() {
     return (
-        <>
+        <main>
             <div className="main-screen-page">
                 <h1>Main Screen</h1>
             </div>
@@ -16,7 +17,11 @@ export default function MainScreen() {
             </div>
 
             <div className="maintenance">
-                <button>Maintenance</button>
+                <button>
+                    <Link href="/maintenance">
+                        Maintenance
+                    </Link>
+                </button>
             </div>
 
             <div className="rides">
@@ -44,6 +49,6 @@ export default function MainScreen() {
                 <h1>Park funds:</h1>
                 <h1>Park rating:</h1>
             </div>
-        </>
+        </main>
     )
 }
