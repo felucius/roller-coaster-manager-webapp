@@ -1,0 +1,49 @@
+"use client";
+
+export default function MainScreen() {
+    return (
+        <>
+            <div className="main-screen-page">
+                <h1>Main Screen</h1>
+            </div>
+
+            <div className="settings">
+                <button>Settings</button>
+            </div>
+
+            <div className="park-overview">
+                <button>Park overview</button>
+            </div>
+
+            <div className="maintenance">
+                <button>Maintenance</button>
+            </div>
+
+            <div className="rides">
+                <button>Rides</button>
+            </div>
+
+            <div className="food-drinks">
+                <button>Food/Drinks</button>
+            </div>
+
+            <div className="employees">
+                <button>Employees</button>
+            </div>
+
+            <div className="customers">
+                <button>Customers</button>
+            </div>
+
+            <div className="personal-details">
+                <label>User 1</label>
+                <img src={"https://ui-avatars.com/api/?name=Maxime&background=random"} alt="User 1" />
+            </div>
+            
+            <div className="park-information">
+                <h1>Park funds:</h1>
+                <h1>Park rating:</h1>
+            </div>
+        </>
+    )
+}
