@@ -16,7 +16,11 @@ export default function MainScreen() {
                 </div>
 
                 <div className="park-overview">
-                    <button>Park overview</button>
+                    <button>
+                        <Link href="/">
+                            Park overview
+                        </Link>
+                    </button>
                 </div>
 
                 <div className="maintenance">
