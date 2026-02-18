@@ -47,7 +47,11 @@ export default function MainScreen() {
                 </div>
 
                 <div className="customers">
-                    <button>Customers</button>
+                    <button>
+                        <Link href="/customers">
+                            Customers
+                        </Link>
+                    </button>
                 </div>
 
                 <div className="personal-details">
