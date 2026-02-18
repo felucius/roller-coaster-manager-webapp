@@ -1,3 +1,6 @@
+import Navigation from "@/components/Navigation";
+import GeneralInformationScreen from "@/components/screens/GeneralInformationScreen";
+
 export default function RootLayout({
   children,
 }: Readonly<{
@@ -6,6 +9,8 @@ export default function RootLayout({
   return (
     <html lang="en">
       <body>
+        <Navigation />
+        <GeneralInformationScreen />
         {children}
       </body>
     </html>
