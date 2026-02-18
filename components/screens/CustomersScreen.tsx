@@ -10,7 +10,7 @@ export default function CustomersScreen() {
             <ul>
                 {getCustomers().map((customer) => (
                     <li key={customer.id}>
-                        {customer.name} - money: ${customer.money}
+                        {customer.name} - money: ${customer.money} - fun: {customer.funScore} - scare: {customer.scareScore} - nausea: {customer.nauseaScore}
                     </li>
                 ))}
             </ul>
