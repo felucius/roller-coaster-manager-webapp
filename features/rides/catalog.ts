@@ -2,7 +2,7 @@ import { Ride } from "./types";
 
 export const RIDE_CATALOG: Ride[] = [
     {
-        id: 1,
+        id: crypto.randomUUID(),
         name: "Wooden Roller Coaster",
         ticketPrice: 5,
         buildCost: 10000,
@@ -11,7 +11,7 @@ export const RIDE_CATALOG: Ride[] = [
         nausea: 3
     },
     {
-        id: 2,
+        id: crypto.randomUUID(),
         name: "Steel Roller Coaster",
         ticketPrice: 8,
         buildCost: 20000,
@@ -20,7 +20,7 @@ export const RIDE_CATALOG: Ride[] = [
         nausea: 6
     },
     {
-        id: 3,
+        id: crypto.randomUUID(),
         name: "Ferris Wheel",
         ticketPrice: 3,
         buildCost: 5000,
@@ -29,7 +29,7 @@ export const RIDE_CATALOG: Ride[] = [
         nausea: 1
     },
     {
-        id: 4,
+        id: crypto.randomUUID(),
         name: "Haunted House",
         ticketPrice: 4,
         buildCost: 8000,
@@ -38,7 +38,7 @@ export const RIDE_CATALOG: Ride[] = [
         nausea: 2
     },
     {
-        id: 5,
+        id: crypto.randomUUID(),
         name: "Bumper Cars",
         ticketPrice: 2,
         buildCost: 3000,

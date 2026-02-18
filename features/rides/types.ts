@@ -1,5 +1,5 @@
 export type Ride = {
-    id: number;
+    id: string;
     name: string;
     ticketPrice: number;
     buildCost: number;

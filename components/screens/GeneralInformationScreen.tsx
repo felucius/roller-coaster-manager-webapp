@@ -9,8 +9,8 @@ export default function GeneralInformationScreen() {
             </div>
             
             <div className="park-information">
-                <h1>Park funds:</h1>
-                <h1>Park rating:</h1>
+                <h1>Park funds: $10.000</h1>
+                <h1>Park rating: 0</h1>
             </div>
         </main>
     );
