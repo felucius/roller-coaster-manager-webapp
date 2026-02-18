@@ -39,7 +39,11 @@ export default function MainScreen() {
                 </div>
 
                 <div className="employees">
-                    <button>Employees</button>
+                    <button>
+                        <Link href="/employees">
+                            Employees
+                        </Link>
+                    </button>
                 </div>
 
                 <div className="customers">
