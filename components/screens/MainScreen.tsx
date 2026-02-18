@@ -6,8 +6,13 @@ export default function MainScreen() {
         <main>
             <div className="main-screen-page">
                 <h1>Main Screen</h1>
+
                 <div className="settings">
-                    <button>Settings</button>
+                    <button>
+                        <Link href="/settings">
+                            Settings
+                        </Link>
+                    </button>
                 </div>
 
                 <div className="park-overview">
