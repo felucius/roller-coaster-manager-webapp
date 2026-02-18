@@ -30,8 +30,12 @@ export default function MainScreen() {
                     </button>
                 </div>
 
-                <div className="food-drinks">
-                    <button>Food/Drinks</button>
+                <div className="consumables">
+                    <button>
+                        <Link href="/consumables">
+                            Food&Drinks
+                        </Link>
+                    </button>
                 </div>
 
                 <div className="employees">
